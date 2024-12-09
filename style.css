@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+   
+    
+}
+
+.navbar {
+     background-color: #123960; 
+    font-size: 1.3rem;
+    
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+   
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+#hero {
+    background-image: url('https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+}
+.lead{
+    font-size: 1.6rem;
+}
+.lead1{
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+#about {
+    background-color: #c2d1ec;
+}
+#skills{
+    background-color: #c4b6a9;
+    height: 8rem;
+}
+#skills .progress-bar {
+    background-color: #007bff; 
+}
+.progress{
+    color: cadetblue;
+}
+#contact button{
+    background-color: rgb(53, 88, 15);
+    color: #f9f2f8;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 10px;
+    display: inline-block; 
+    text-align: center;
+    line-height: 4rem; 
+    text-decoration: none; 
+}
+
+#projects{
+    background-color: #c2d1ec;
+}
+#projects .card {
+    margin-bottom: 20px;
+    background-color: rgb(233, 241, 234);
+}
+#projects h5{
+    color: rgb(52, 3, 97);
+    font-weight: 700;
+}
+#projects p{
+    color: rgb(77, 2, 37);
+    font-weight: 600;
+    font-size: medium;
+}
+#projects a {
+    background-color: rgb(59, 16, 16);
+    color: #f9f2f8;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 10px;
+    display: inline-block; 
+    text-align: center;
+    line-height: 4rem; 
+    text-decoration: none; 
+}
+#git{
+    background-color: #c2d1ec;
+    color: #343a40;
+ }
+#projects .card-title {
+    font-size: 1.25rem;
+}
+footer {
+    background-color: #343a40;
+    color: #f9f2f8;
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+/* Custom styling for forms */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Media query */
